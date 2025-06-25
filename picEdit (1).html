@@ -1,0 +1,137 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>picEdit - Photo Editing Service</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f7f7f7;
+      margin: 0;
+      padding: 0;
+    }
+    header {
+      background-color: #2c3e50;
+      color: white;
+      padding: 1rem;
+      text-align: center;
+    }
+    nav {
+      background-color: #34495e;
+      padding: 0.5rem;
+      text-align: center;
+    }
+    nav a {
+      color: white;
+      margin: 0 10px;
+      text-decoration: none;
+    }
+    section {
+      padding: 2rem;
+      max-width: 900px;
+      margin: auto;
+    }
+    .pricing-table {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 1rem;
+    }
+    .card {
+      background-color: white;
+      border-radius: 8px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+      flex: 1;
+      padding: 1rem;
+      min-width: 200px;
+    }
+    footer {
+      background-color: #2c3e50;
+      color: white;
+      text-align: center;
+      padding: 1rem;
+    }
+    .login-note, .privacy-note {
+      background-color: #fffbe6;
+      border-left: 5px solid #f39c12;
+      padding: 1rem;
+      margin: 1rem 0;
+    }
+    .highlight {
+      background-color: #d4edda;
+      color: #155724;
+      border-left: 5px solid #28a745;
+      padding: 1rem;
+      margin: 1rem 0;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>picEdit</h1>
+    <p>Photo Editing Service by Shayantan Das</p>
+    <p>ফটো এডিটিং পরিষেবা | फोटो एडिटिंग सेवा</p>
+  </header>
+
+  <nav>
+    <a href="#home">Home</a>
+    <a href="#pricing">Pricing</a>
+    <a href="#upload">Upload</a>
+    <a href="#login">Login</a>
+    <a href="#contact">Contact</a>
+    <a href="#privacy">Privacy</a>
+  </nav>
+
+  <section id="home">
+    <h2>Welcome to picEdit</h2>
+    <p>Upload your photo and get professionally edited images within hours. বাংলা, English এবং हिन्दी – তিন ভাষায় পরিষেবা।</p>
+    <div class="highlight">
+      🎁 Your <strong>1st photo is FREE</strong>! Try our service before paying.
+    </div>
+  </section>
+
+  <section id="pricing">
+    <h2>📸 Pricing</h2>
+    <div class="pricing-table">
+      <div class="card">1st Pic – <strong>FREE</strong></div>
+      <div class="card">1 Pic – ₹5</div>
+      <div class="card">10 Pics – ₹39</div>
+      <div class="card">50 Pics – ₹199</div>
+      <div class="card">100 Pics – ₹399</div>
+      <div class="card">3 Month Subscription – ₹549</div>
+      <div class="card">Yearly Subscription – ₹999</div>
+    </div>
+  </section>
+
+  <section id="upload">
+    <h2>Upload Your Photo</h2>
+    <p>Please login if you wish, or directly upload below:</p>
+    <input type="file" accept="image/*" />
+    <p class="login-note">Note: Without full payment, your edited photo will remain 99% hidden. No half payment accepted. First photo is always FREE.</p>
+  </section>
+
+  <section id="login">
+    <h2>🔐 Optional Login</h2>
+    <p>If you want to manage your orders or keep history, feel free to login.</p>
+    <button>Login / Sign Up (Coming Soon)</button>
+  </section>
+
+  <section id="contact">
+    <h2>📞 Contact</h2>
+    <p>Owner: Shayantan Das</p>
+    <p>Phone / Payment Number: +91 70030 39902</p>
+  </section>
+
+  <section id="privacy">
+    <h2>🔒 Privacy Policy</h2>
+    <div class="privacy-note">
+      Only the editor (Shayantan) can see your uploaded images. No one else can access them. সম্পূর্ণ প্রাইভেট, सुरक्षित।
+    </div>
+  </section>
+
+  <footer>
+    &copy; 2025 picEdit | Developed for Shayantan Das | All rights reserved.
+  </footer>
+</body>
+</html>
